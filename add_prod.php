@@ -39,7 +39,7 @@ value=""/>
 if (isset($_POST['submit']))
 
 {
-// get the form data
+// get the form data create variable
 $prod_name = htmlentities($_POST['prod_name'], ENT_QUOTES);
 $prod_desc = htmlentities($_POST['prod_desc'], ENT_QUOTES);
 $prod_price = htmlentities($_POST['prod_price'], ENT_QUOTES);
